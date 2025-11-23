@@ -164,14 +164,14 @@ document.addEventListener('DOMContentLoaded', function() {
                 text-align: center;
                 padding: 20px;
             ">
-                <div>
-                    <h2 style="font-size: 4rem; margin-bottom: 30px; color: #ff6b6b;">Congratulations Mr Bright! 🎉</h2>
-                    <p style="margin-bottom: 30px; font-size: 2rem;">Thank you for forgiving me!</p>
-                    <p style="margin-bottom: 30px; font-size: 1.5rem;">You've made me the happiest person alive!</p>
-                    <div style="margin-top: 30px;">
+                <div style="max-width: 90%; padding: 20px;">
+                    <h2 style="font-size: 2.5rem; margin-bottom: 20px; color: #ff6b6b;">Congratulations Mr Bright! 🎉</h2>
+                    <p style="margin-bottom: 20px; font-size: 1.2rem;">Thank you for forgiving me!</p>
+                    <p style="margin-bottom: 20px; font-size: 1rem;">You've made me the happiest person alive!</p>
+                    <div style="margin-top: 20px;">
                         <button id="continueJourneyBtn" style="
-                            padding: 15px 30px;
-                            font-size: 1.2rem;
+                            padding: 12px 20px;
+                            font-size: 1rem;
                             background: linear-gradient(to right, #ff6b6b, #ff8e8e);
                             color: white;
                             border: none;
@@ -179,7 +179,8 @@ document.addEventListener('DOMContentLoaded', function() {
                             cursor: pointer;
                             box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
                             transition: all 0.3s ease;
-                            margin: 0 10px;
+                            margin: 10px 5%;
+                            width: 90%;
                         " onmouseover="this.style.transform='translateY(-3px)'; this.style.boxShadow='0 8px 20px rgba(0, 0, 0, 0.3)';"
                            onmouseout="this.style.transform='translateY(0)'; this.style.boxShadow='0 5px 15px rgba(0, 0, 0, 0.3)';">
                             Continue Our Journey
@@ -215,22 +216,22 @@ document.addEventListener('DOMContentLoaded', function() {
                 left: 50%;
                 transform: translate(-50%, -50%);
                 background: rgba(255, 255, 255, 0.95);
-                padding: 30px;
+                padding: 20px;
                 border-radius: 20px;
                 box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
                 text-align: center;
                 z-index: 3000;
                 max-width: 90%;
-                width: 400px;
+                width: 90%;
             ">
-                <h3 style="color: #d81b60; margin-bottom: 20px; font-family: 'Great Vibes', cursive; font-size: 2.5rem;">A Special Message For You</h3>
-                <div style="margin-bottom: 20px;">
+                <h3 style="color: #d81b60; margin-bottom: 15px; font-family: 'Great Vibes', cursive; font-size: 2rem;">A Special Message For You</h3>
+                <div style="margin-bottom: 15px;">
                     <audio id="specialAudio" controls style="width: 100%;">
                         <source src="audio/Peculiar%20T.mp3" type="audio/mpeg">
                         Your browser does not support the audio element.
                     </audio>
                 </div>
-                <p style="margin-bottom: 20px; color: #5a3e36; font-size: 1.1rem;">Playing a special message... Please listen.</p>
+                <p style="margin-bottom: 15px; color: #5a3e36; font-size: 1rem;">Playing a special message... Please listen.</p>
                 <div style="display: flex; justify-content: center;">
                     <button id="skipAudioBtn" style="
                         padding: 10px 20px;
@@ -239,7 +240,7 @@ document.addEventListener('DOMContentLoaded', function() {
                         border: none;
                         border-radius: 50px;
                         cursor: pointer;
-                        font-size: 1rem;
+                        font-size: 0.9rem;
                     ">Continue to Gallery</button>
                 </div>
             </div>
